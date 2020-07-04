@@ -52,7 +52,7 @@ module.exports = ProjectEditorHandler = {
     result.features = _.defaults(ownerFeatures || {}, {
       collaborators: -1, // Infinite
       versioning: false,
-      dropbox: false,
+      dropbox: true,
       compileTimeout: 60,
       compileGroup: 'standard',
       templates: false,
